@@ -22,4 +22,16 @@ public abstract class Pet {
      * asks the pet to move.
      */
     public abstract void move();
+    
+    public String getName() {
+        return this.name;
+    }
+    
+    public int getAge() {
+        return this.age;
+    }
+    
+    public String getGender() {
+        return this.gender;
+    }
 }
